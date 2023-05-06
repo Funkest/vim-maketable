@@ -1,0 +1,32 @@
+*maketable.txt*    Create Markdown table
+
+Author: mattn <mattn.jp at gmail.com>
+License: MIT license
+
+CONTENTS                          *maketable-contents*
+
+Introduction        |maketable-introduction|
+Usage               |maketable-usage|
+
+==============================================================================
+INTRODUCTION                      *maketable-introduction*
+
+Nothing
+
+==============================================================================
+USAGE                             *maketable-usage*
+
+Just select lines and do following
+    :'<,'>MakeTable
+
+If you want to use first line as header of table,
+    :'<,'>MakeTable!
+
+If you want to use tab separated columns,
+    :'<,'>MakeTable! \t
+
+If you want to make CSV from markdown table
+    :UnmakeTable
+
+==============================================================================
+vim:tw=78:ts=4:ft=help
